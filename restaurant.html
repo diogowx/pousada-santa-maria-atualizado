@@ -220,7 +220,31 @@
                 <div class="title text-center mb-5">
                     <small data-cue="slideInUp">Pousada Santa Maria</small>
                     <h2 data-cue="slideInUp" data-delay="100">Café da Manhã </h2>
-                </div>
+                </div><style>
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 560px; /* limite no desktop */
+    margin: 0 auto; /* centraliza */
+  }
+
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9; /* mantém proporção certinha */
+    border: 0;
+  }
+</style>
+
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/NtNw35Kxnh4?si=Ioovsb6ORj-YHm6k"
+    allowfullscreen
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+  </iframe>
+</div>
+
+                
                 <div class="tabs_menu" data-cue="slideInUp" data-delay="200">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
